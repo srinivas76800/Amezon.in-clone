@@ -1,0 +1,488 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgba(221, 221, 221, 0.527);
+}
+
+/**Box 1 **/
+
+
+.nav-bare {
+    background-color: rgb(0, 0, 21);
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0.5rem;
+    position: sticky;
+    top: 0px;
+}
+
+.searchin {
+    width: 30vw;
+    height: 2.5rem;
+    object-fit: contain;
+    border: none;
+}
+
+.select {
+    border: none;
+    width: auto;
+    border-top-left-radius: 0.3rem;
+    border-bottom-left-radius: 0.3rem;
+    height: 2.5rem;
+    width: 3rem;
+    background-color: rgb(223, 223, 223);
+}
+
+.nav-logo {
+    border: 1px solid transparent;
+    text-align: center;
+}
+
+.nav-logo img {
+    width: 5.8rem;
+    height: auto;
+    object-fit: cover;
+}
+
+.iconlocation {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+
+}
+
+.nav-location {
+    border: 1px solid transparent;
+}
+
+.nav-serch {
+    border: 1px solid transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-magnifying-glass {
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    height: 2.5rem;
+}
+
+.glass {
+    background-color: rgb(234, 197, 52);
+    border-top-right-radius: 0.3rem;
+    border-bottom-right-radius: 0.3rem;
+}
+
+.select option {
+    border-radius: 50%;
+    background-color: #26243d;
+    color: white;
+    font-weight: 550;
+}
+
+.sigindiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.nav-sigin {
+    border: 1px solid transparent;
+}
+
+.ir {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.retuns-orders {
+    border: 1px solid transparent;
+}
+
+.cart {
+    border: 1px solid transparent;
+}
+
+.border:hover {
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.deliver {
+    font-size: 0.7rem;
+    color: #e3e3e3;
+}
+
+.india {
+    font-size: 0.8rem;
+    color: #ffffff;
+    font-weight: 800;
+}
+
+.hello {
+    font-size: 0.7rem;
+    color: #e3e3e3;
+    text-decoration: none;
+}
+.hi{
+    color: #ffffff;
+    text-decoration: none;
+}
+.account {
+    font-size: 0.8rem;
+    color: #ffffff;
+    font-weight: 800;
+}
+
+.retuns {
+    font-size: 0.7rem;
+    color: #e3e3e3;
+}
+
+.orders {
+    font-size: 0.8rem;
+    color: #ffffff;
+    font-weight: 800;
+}
+
+.cartone {
+    font-size: 0.8rem;
+    color: #ffffff;
+    font-weight: 800;
+}
+
+/**Box 2 **/
+
+
+.nav-menu {
+    background-color: #26243d;
+    color: white;
+    padding: 0.5rem;
+}
+
+.deals li {
+    list-style-type: none;
+    border: 1px solid transparent;
+    font-size: 0.9rem;
+    font-weight: 550;
+
+    &:hover {
+        border: 1px solid white;
+        cursor: pointer;
+    }
+}
+
+.deals {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+/**Box 3 **/
+
+.grate-indian-fest {
+    height: auto;
+    background-color: rebeccapurple;
+    background-image: url(images.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 1vw;
+    font-weight: bold;
+}
+
+.gif {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.gif div a {
+    text-decoration: none;
+    color: blue;
+    font-weight: 550;
+}
+
+.treeimg img {
+    width: 100%;
+}
+
+.treeimg {
+    margin-top: 15rem;
+    margin-bottom: 2rem;
+    width: 24%;
+    background-color: #fff;
+    text-align: center;
+    padding: 1.5vw;
+    box-shadow: 0 0 0.5rem rgb(255, 255, 255);
+    overflow: hidden;
+}
+
+/**box 4**/
+
+.homeneeds {
+    margin-top: 20px;
+    height: auto;
+    padding: 1rem;
+    background-color: #fff;
+}
+
+.homeneeds h1 {
+    text-align: center;
+    padding: 0.8rem;
+}
+
+.needsimgs img {
+    width: 10%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+
+}
+
+.needsimgs {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/**Box 5 **/
+
+.blockbusterdeals {
+    background-color: rgb(234, 197, 52);
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.blockbusterdeals h1 {
+    font-weight: bolder;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.deals {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.deal img {
+    width: 70%;
+    object-fit: cover;
+    margin-bottom: calc(bolder(1px solid black));
+}
+
+.deal {
+    text-align: center;
+    background-color: white;
+    width: 20vw;
+    padding: 0.5rem;
+    border-radius: 5px;
+    box-shadow: 0 0 0.5rem white;
+}
+
+#off {
+    background-color: rgb(209, 14, 0);
+    color: white;
+    border-radius: 0.2rem;
+    padding: 0.2rem;
+}
+
+#offone {
+    color: rgb(209, 14, 0);
+}
+
+#cost {
+    text-decoration: line-through;
+}
+
+/**Box 6 **/
+
+.product {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.productitems {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 30%;
+    background-color: #fff;
+    text-align: center;
+    padding: 1rem;
+    box-shadow: 0 0 0.5rem rgb(255, 255, 255);
+    overflow: hidden;
+}
+
+.refurbished {
+    height: auto;
+}
+
+.refurbished img {
+    width: 45%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+}
+
+.refurbished div {
+    display: inline;
+}
+
+/**Box 7 **/
+
+.exchange {
+    text-align: center;
+    background-color: white;
+    width: 20vw;
+    padding: 0.5rem;
+    border-radius: 5px;
+    box-shadow: 0 0 0.5rem white;
+}
+
+.exchange img {
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: calc(bolder(1px solid black));
+}
+
+/**Box 8 **/
+
+.box8 {
+    margin-top: 2rem;
+    background-color: white;
+    height: max-content;
+    width: 100%;
+}
+
+.phone {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.phone img {
+    width: 10rem;
+}
+
+.box8 h1 {
+    font-weight: bolder;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.Exploremore {
+    text-align: center;
+    font-size: small;
+    text-decoration: none;
+}
+
+/**Box 9 **/
+
+.onephone {
+    width: 15rem;
+}
+
+/**Box 12 **/
+
+footer{
+    background-color: rgb(21, 22, 35);
+    
+}
+.help{
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 3rem;
+}
+.help h1{
+    color: rgb(234, 197, 52);
+    font-size:small;
+}
+.help li{
+    list-style-type: none;
+    text-decoration: none;
+    color: rgb(152, 152, 152);
+    font-size: smaller;
+    &:hover{
+        color: rgb(234, 197, 52);
+        cursor: pointer;
+    }
+}
+.footerlogo{
+    mix-blend-mode: color-dodge;
+}
+.right{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.copyright{
+    color: #fff;
+    text-align: center;
+}
+@media screen and (max-width: 767px){ 
+    .nav-bar{
+        width: auto;
+        overflow: hidden;
+    }
+    .nav-serch{
+        height: 2rem;
+    }
+    .treeimg{
+        margin-top: 8rem;
+        margin-bottom: 0.5rem;
+        width: 50%;
+        background-color: #fff;
+        text-align: center;
+        padding: 0.2rem;
+        box-shadow: 0 0 0.2rem rgb(255, 255, 255);
+        overflow: hidden;
+    }
+    .grate-indian-fest {
+        height: auto;
+        background-color: rebeccapurple;
+        background-image: url(images.jpeg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        overflow: hidden;
+    }
+    .searchin {
+        width: 20vw;
+        height: 1.5rem;
+        object-fit: contain;
+        border: none;
+    }
+    .treeimg img {
+        width: 100%;
+    }
+    .gif {
+        display: grid;
+        justify-items: center;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
